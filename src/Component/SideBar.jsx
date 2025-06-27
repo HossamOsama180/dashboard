@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 const SideBar = () => {
     return (
         <div>
-            <aside className="w-60 bg-white p-6 shadow-md h-screen">
-                <h2 className="text-2xl font-bold text-green-600 mb-8">Sedap.</h2>
+            <aside className="w-60 bg-white p-6 shadow-md min-h-screen h-full">
+                <h2 className="text-2xl font-bold text-green-600 mb-8">DineSent</h2>
                 <ul className="space-y-3 text-gray-700">
                     <li><a href="/" className="block px-3 py-2 rounded hover:bg-green-100">Dashboard</a></li>
                     <li><Link to="/order" className="block px-3 py-2 hover:bg-green-100 rounded">Order List</Link></li>
